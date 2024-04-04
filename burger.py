@@ -3,7 +3,7 @@ from typing import List
 from praktikum.bun import Bun
 from praktikum.ingredient import Ingredient
 
-test
+test1
 class Burger:
     """
     Модель бургера.
