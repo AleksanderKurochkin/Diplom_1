@@ -6,19 +6,28 @@
 
 Созданы юнит-тесты, покрывающие классы `Bun`, `Burger`, `Ingredient`, `Database`
 
-Процент покрытия 100% (отчет: `htmlcov/index.html`)
-
+Процент покрытия 80% (отчет: `htmlcov/index.html`)
+Name                            Stmts   Miss  Cover
+---------------------------------------------------
+praktikum\bun.py                    8      0   100%
+praktikum\burger.py                27     11    59%
+praktikum\database.py              21      2    90%
+praktikum\ingredient.py            11      1    91%
+praktikum\ingredient_types.py       2      0   100%
+---------------------------------------------------
+TOTAL                              69     14    80%
 ### Структура проекта
 
 - `praktikum` - пакет, содержащий код программы
-- `tests` - пакет, содержащий тесты, разделенные по классам. Например, `bun_test.py`, `burger_test.py` и т.д.
+- `tests` - пакет, содержащий тесты, разделенные по классам. 
+test_bun.py
+test_burger.py
+test_database
+test_ingredient.py
 
-### Запуск автотестов
 
-**Установка зависимостей**
 
-> `$ pip install -r requirements.txt`
 
-**Запуск автотестов и создание HTML-отчета о покрытии**
 
->  `$ pytest --cov=praktikum --cov-report=html`
+
+   
